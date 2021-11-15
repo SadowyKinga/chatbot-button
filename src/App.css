@@ -1,0 +1,85 @@
+.click-chat {
+  background-color: transparent;
+  border-radius: 100%;
+  background-color: #14286e;
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+.hidden-button {
+  background-color: transparent;
+  border-color: transparent;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: 0;
+  margin: 5px;
+}
+.click-chat > svg.MuiSvgIcon-root {
+  font-size: 1.5em;
+  position: absolute;
+  margin: 5px; 
+  right: auto;
+  left: auto;
+  top: auto;
+  bottom: auto;
+  transform: translate(-22.5px, 8px);
+}
+
+/*animacja kropek*/
+.dots-cont {
+  position: absolute;
+  top:2px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateY(5px);
+}
+  
+.dot {
+  width: 4px;
+  height: 4px;
+  background: white;
+  display: inline-block;
+  border-radius: 50%;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px 2px;
+}
+  
+.dots-cont:hover > .dot {
+  position: relative;
+  bottom: 0px;
+  animation-name: changeColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+  
+.dots-cont .dot-1 {
+  -webkit-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+  
+.dots-cont .dot-2 {
+  -webkit-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+  
+.dots-cont .dot-3 {
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+
+@keyframes changeColor {
+  0% {background-color: white;}
+  25% {background-color: #14286e;}
+  50% {background-color: white;}
+  75% {background-color: #14286e;}
+  100% {background-color: white;}
+}
