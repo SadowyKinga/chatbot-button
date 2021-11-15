@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 
