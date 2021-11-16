@@ -1,15 +1,36 @@
 .click-chat {
   color: black;
+  font-size: x-large;
+  cursor: pointer;
+  width: auto;
+  height: auto;
 }
-
+.hidden-button {
+  background-color: transparent;
+  border-color: transparent;
+  position: fixed;
+  width: 2em;
+  height: 2em;
+  padding: 0;
+  border: 0;
+  margin: 5px;
+}
 .click-chat > svg.MuiSvgIcon-root {
-  font-size: 2.5em;
+  font-size: 1.5em;
+  position: absolute;
+  margin: 5px; 
+  right: auto;
+  left: auto;
+  top: auto;
+  bottom: auto;
+  transform: translate(-22.5px, 8px);
 }
 
 /*animacja kropek*/
 .dots-cont {
   position: absolute;
-  top:0;
+  top:2px;
+  left: 0;
   height: 100%;
   width: 100%;
   transform: translateY(5px);
@@ -18,11 +39,11 @@
 .dot {
   width: 4px;
   height: 4px;
-  background: black;
+  background: white;
   display: inline-block;
   border-radius: 50%;
-  left: 8px;
-  top: -3px;  
+  right: 0px;
+  bottom: 0px;
   margin: 0px 2px;
 }
   
@@ -57,3 +78,4 @@
   75% {background-color: #14286e;}
   100% {background-color: white;}
 }
+
