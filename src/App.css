@@ -1,16 +1,21 @@
 .click-chat {
-  color: black;
+  background-color: transparent;
+  border-radius: 100%;
+  background-color: #14286e;
+  color: white;
   font-size: x-large;
   cursor: pointer;
-  width: auto;
-  height: auto;
+  width: 60px;
+  height: 60px;
 }
 .hidden-button {
   background-color: transparent;
   border-color: transparent;
   position: fixed;
-  width: 2em;
-  height: 2em;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
   padding: 0;
   border: 0;
   margin: 5px;
@@ -78,4 +83,3 @@
   75% {background-color: #14286e;}
   100% {background-color: white;}
 }
-
