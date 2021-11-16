@@ -3,9 +3,7 @@ import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 
 function App() {
   return (
-    <div>
-      <button className="hidden-button">
-      <div className="click-chat" style={{ position: "relative" }}>
+      <div className="click-chat">
         <ChatBubbleOutlineIcon />
         <div className="dots-cont">
           <span className="dot dot-1"></span>
@@ -13,8 +11,6 @@ function App() {
           <span className="dot dot-3"></span>
         </div>
       </div>
-    </button>
-    </div >
    
   );
 }
